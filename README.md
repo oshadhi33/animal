@@ -62,7 +62,7 @@ docker-compose down
 ```
 ---
 
-#### **🔄 CI/CD Pipeline with Jenkins**
+## 🔄 CI/CD Pipeline with Jenkins
 
 This project includes an automated Jenkins pipeline for building, testing, and deploying the website using Docker.
 
@@ -75,7 +75,7 @@ This project includes an automated Jenkins pipeline for building, testing, and d
    
 **Jenkinsfile Example**
 
-If you are using a Jenkinsfile, it may look like this:
+
 ```
 pipeline {
     agent any
@@ -114,13 +114,10 @@ pipeline {
 
 **Jenkins Setup**
 
-• Install Docker on the Jenkins server.
-
-• Configure Jenkins to allow Docker commands.
-
-• Add Docker Hub credentials in Jenkins.
-
-• Set up a Jenkins job with a GitHub Webhook for automatic deployment.
+- Install Docker on the Jenkins server.
+- Configure Jenkins to allow Docker commands.
+- Add Docker Hub credentials in Jenkins.
+- Set up a Jenkins job with a GitHub Webhook for automatic deployment.
 
 ---
 
@@ -150,4 +147,12 @@ Feel free to fork the repository and submit a pull request if you have improveme
 ## ⚖️ License
 
 This project is open-source and free to use.
+
+---
+
+### 🔥 **Next Steps**
+
+- Replace **"your-github-username"** with your actual GitHub username.
+- Replace **"your-dockerhub-username"** with your Docker Hub username (if pushing images).
+- Make sure your **Jenkins pipeline** matches your actual configuration.
 
